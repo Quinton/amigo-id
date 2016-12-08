@@ -1,0 +1,22 @@
+{
+  "name": "gionee-id",
+  "version": "1.0.0",
+  "description": "金立账号登录系统SDK.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quinton/gionee-id.git"
+  },
+  "keywords": [
+    "gionee-id"
+  ],
+  "author": "quinton.xu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quinton/gionee-id/issues"
+  },
+  "homepage": "https://github.com/Quinton/gionee-id#readme"
+}
