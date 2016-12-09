@@ -1,6 +1,6 @@
 # 金立账号登录SDK
 
-# Installation
+## Installation
     npm install amigo-id
 ## Test
     npm test
