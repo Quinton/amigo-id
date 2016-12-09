@@ -2,5 +2,9 @@
 
 ## Installation
     npm install amigo-id
+
+## Usage
+    请查看测试用例。
+
 ## Test
     npm test
