@@ -1,5 +1,5 @@
 {
-  "name": "gionee-id",
+  "name": "amigo-id",
   "version": "1.0.0",
   "description": "金立账号登录系统SDK.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Quinton/gionee-id.git"
+    "url": "git+https://github.com/Quinton/amigo-id.git"
   },
   "keywords": [
     "gionee-id"
