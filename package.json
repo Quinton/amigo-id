@@ -1,6 +1,6 @@
 {
   "name": "amigo-id",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "金立账号登录系统SDK.",
   "main": "index.js",
   "scripts": {
