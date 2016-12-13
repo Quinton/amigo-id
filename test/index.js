@@ -1,5 +1,5 @@
 const assert = require('assert');
-const amigo = require('../lib/index');
+const amigo = require('../index');
 
 describe('Oauth With Amigo', function() {
     const context = {
@@ -16,11 +16,8 @@ describe('Oauth With Amigo', function() {
     //替换有效的token
     const token = {'h':'9DEDD8D5E6F04C2AA6EB34DED0721315','n':'BCC6D4CE','t':'1481523626','v':'CC0A4AE0E3CD30868F107D7CF0026446A8401721'};
     it('should return {"wid": "xxx","r": "xxx","err": "不存在该应用(AppId|AppKey)"} when the value is not present', function(done) {
-        amigo.macSign(token, context, function (err, res)  {
-            done();
+        amigo.macSign(token, context).then((res) => {
             console.log(res);
-            assert.equal(res.err, "不存在该应用(AppId|AppKey)");
-            assert.equal(res.r, "1011");
-        });
+        }).then(done);
     });
 });
