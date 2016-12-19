@@ -18,6 +18,7 @@ describe('Oauth With Amigo', function() {
     it('should return {"wid": "xxx","r": "xxx","err": "不存在该应用(AppId|AppKey)"} when the value is not present', function(done) {
         amigo.macSign(token, context).then((res) => {
             console.log(res);
-        }).then(done);
+	    done();
+        });
     });
 });
